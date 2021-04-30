@@ -7,8 +7,8 @@ app.get('/', function(req, res) {
 
     // config for your database
     var config = {
-        user: 'xiangjc',
-        password: 'mypassword',
+        user: 'henderae',
+        password: '@1T20h8e5n14a1',
         server: 'titan.csse.rose-hulman.edu',
         database: 'HCHD'
     };
@@ -22,7 +22,7 @@ app.get('/', function(req, res) {
         var request = new sql.Request();
 
         // query to the database and get the records
-        request.query('select * from Student', function(err, recordset) {
+        request.query('Select * from Employee', function(err, recordset) {
 
             if (err) console.log(err)
 
